@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>You clicked me {outputText} times!</Text>
-      <Button title="Click me" onPress={() => setOutputText(outputText+1)}/>
+      <Button title="Click me!" onPress={() => setOutputText(outputText+1)}/>
     </View>
   );
 }
